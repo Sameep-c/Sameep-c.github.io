@@ -6,6 +6,9 @@ url: "https://sameep-c.github.io"
 baseurl: ""
 lang: en
 
+webmaster_verifications:
+  google: k-ncdX53QifaMeZLQkNJOqhhQ4VRiQj009XD3-qETao
+
 author:
   name: Sameep Chattopadhyay
   first_name: Sameep
