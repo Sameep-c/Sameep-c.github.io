@@ -4,9 +4,6 @@
 # - name: Google Scholar
 #   icon: ai ai-google-scholar
 #   url: https://scholar.google.com/citations?user=YOUR_ID
-- name: GitHub
-  icon: fa-brands fa-github
-  url: https://github.com/Sameep-c
 - name: LinkedIn
   icon: fa-brands fa-linkedin
   url: https://www.linkedin.com/in/sameep-chattopadhyay-606472214

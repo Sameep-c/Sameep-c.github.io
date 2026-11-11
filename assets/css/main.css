@@ -158,6 +158,10 @@ main.container { padding-top: 56px; padding-bottom: 72px; }
   text-decoration: none;
 }
 
+.contact-emails { margin: 14px 0 0; font-size: 0.92rem; color: var(--text-muted); }
+.contact-emails i { margin-right: 6px; }
+.contact-emails .sep { margin: 0 6px; }
+
 /* Sections */
 .section { margin-top: 56px; }
 .section-title {

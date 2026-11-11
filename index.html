@@ -13,7 +13,9 @@ title: About
         I am a Ph.D. student at the
         <a href="https://www.cs.washington.edu/" target="_blank" rel="noopener">Paul G. Allen School of Computer Science &amp; Engineering</a>
         at the University of Washington, advised by
-        <a href="https://people.ece.uw.edu/ostendorf/" target="_blank" rel="noopener">Prof. Mari Ostendorf</a>.
+        <a href="https://people.ece.uw.edu/ostendorf/" target="_blank" rel="noopener">Prof. Mari Ostendorf</a>,
+        and closely collaborating with
+        <a href="https://nasmith.github.io/" target="_blank" rel="noopener">Prof. Noah A. Smith</a>.
         I build <strong>speech-based multimodal AI systems for conversation</strong>: voice agents that
         listen in real time, audio language models that treat every speaker fairly, and speech
         recognition that works beyond high-resource languages.
@@ -25,7 +27,7 @@ title: About
         (Minor in AI &amp; Data Science) from IIT Bombay, graduating as the department valedictorian.
         There I worked on multilingual ASR with
         <a href="https://www.cse.iitb.ac.in/~pjyothi/" target="_blank" rel="noopener">Prof. Preethi Jyothi</a>
-        and on online learning with
+        and on on-device inference with
         <a href="https://sites.google.com/view/sharayu-homepage/home" target="_blank" rel="noopener">Prof. Sharayu Moharir</a>.
         I have also spent time at UT Austin, Texas Instruments, Kyushu Institute of Technology, and Siemens.
       </p>
@@ -43,6 +45,12 @@ title: About
         <a href="{{ s.url | relative_url }}" aria-label="{{ s.name }}" title="{{ s.name }}" {% unless s.url contains 'mailto' or s.url contains '/assets/' %}target="_blank" rel="noopener"{% endunless %}><i class="{{ s.icon }}"></i></a>
       {% endfor %}
     </div>
+    <p class="contact-emails">
+      <i class="fa-solid fa-envelope"></i>
+      <a href="mailto:sameepch@uw.edu">sameepch@uw.edu</a>
+      <span class="sep">·</span>
+      <a href="mailto:sameepch@cs.washington.edu">sameepch@cs.washington.edu</a>
+    </p>
   </div>
   <div class="hero-photo">
     <img src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Photo of {{ site.author.name }}">
