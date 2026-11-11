@@ -1,0 +1,63 @@
+education:
+  - title: Ph.D. in Computer Science
+    org: University of Washington, Seattle
+    period: Sep 2025 – present
+    details: Advisor Prof. Mari Ostendorf · Dora Zee Ling Fellow
+  - title: B.Tech. + M.Tech. in Electrical Engineering, Minor in AI & Data Science
+    org: Indian Institute of Technology Bombay
+    period: Nov 2020 – Jul 2025
+    details: Valedictorian, Institute Silver Medal · CPI 9.56/10
+
+experience:
+  - title: Graduate Researcher
+    org: University of Washington
+    period: Fall 2025 – present
+    details: Streaming ASR for voice agents; robustness and fairness of audio language models.
+  - title: Visiting Researcher
+    org: University of Texas at Austin
+    period: Summer 2024
+    details: Multimodal contextual features for transformer-based time series forecasting.
+  - title: Student Researcher
+    org: Amazon × IIT Bombay
+    period: Nov 2023 – Oct 2024
+    details: Speech technologies for low-resource Indian languages.
+  - title: Signal Processing Intern
+    org: Texas Instruments, Bangalore
+    period: Summer 2023
+    details: Nonlinear power amplifier modeling and digital pre-distortion for 5G transceivers.
+  - title: Visiting Researcher
+    org: Kyushu Institute of Technology, Japan
+    period: Winter 2022
+    details: LSTM-VAE models for caregiver posture analysis from wearable muscle-suit sensors.
+  - title: Data Analyst Intern
+    org: Siemens India, Mumbai
+    period: Summer 2022
+    details: Time-series analysis and anomaly detection on industrial energy data.
+
+awards:
+  - year: 2026
+    text: Outstanding Paper Award, EMNLP 2026
+  - year: 2025
+    text: Institute Silver Medal, valedictorian of the IIT Bombay EE program
+  - year: 2025
+    text: Dora Zee Ling Fellowship, Paul G. Allen School, University of Washington
+  - year: 2025
+    text: Undergraduate Research Award, IIT Bombay
+  - year: 2025
+    text: Passing Out Color, IIT Bombay, for service to the institute
+  - year: 2024
+    text: $10,000 research fellowship, University of Texas at Austin
+  - year: 2022
+    text: ¥400,000 research fellowship, Kyushu Institute of Technology
+  - year: 2020
+    text: All India Rank 355 in JEE Advanced; 99.86 percentile in JEE Mains
+
+teaching:
+  - title: "Teaching Assistant, EE 706: Communication Networks"
+    period: Spring 2025
+  - title: "Teaching Assistant, EE 325: Probability and Random Processes"
+    period: Fall 2024
+  - title: "Teaching Assistant, CS 753: Automatic Speech Recognition"
+    period: Spring 2024
+  - title: Institute Academic Cabinet Head, Student Mentorship Program (80+ mentors)
+    period: 2024 – 2025

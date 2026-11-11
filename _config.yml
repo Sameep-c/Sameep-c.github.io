@@ -1,0 +1,39 @@
+title: Sameep Chattopadhyay
+description: >-
+  Ph.D. student in Computer Science at the University of Washington working on
+  speech-based multimodal AI for conversational systems.
+url: "https://sameep-c.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Sameep Chattopadhyay
+  first_name: Sameep
+  last_name: Chattopadhyay
+  position: Ph.D. Student, Computer Science
+  affiliation: Paul G. Allen School of Computer Science & Engineering, University of Washington
+  email: sameepch@uw.edu
+
+navigation:
+  - title: About
+    url: /
+  - title: Publications
+    url: /publications/
+  - title: Projects
+    url: /projects/
+  - title: CV
+    url: /cv/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

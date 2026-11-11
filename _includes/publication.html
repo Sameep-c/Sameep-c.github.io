@@ -1,0 +1,23 @@
+{% assign pub = include.pub %}
+{% assign me = site.author.name %}
+{% assign me_star = me | append: "*" %}
+{% assign me_star_bold = "<span class='me'>" | append: me | append: "</span>*" %}
+{% assign me_bold = "<span class='me'>" | append: me | append: "</span>" %}
+<article class="pub">
+  <div class="pub-badge">{{ pub.venue_short }}</div>
+  <div class="pub-body">
+    <h3 class="pub-title">{{ pub.title }}</h3>
+    <p class="pub-authors">{{ pub.authors | replace: me_star, "@@ME_STAR@@" | replace: me, me_bold | replace: "@@ME_STAR@@", me_star_bold }}</p>
+    <p class="pub-venue">
+      <em>{{ pub.venue }}</em>
+      {% if pub.award %}<span class="pub-award"><i class="fa-solid {% if pub.award contains 'Award' %}fa-trophy{% else %}fa-star{% endif %}"></i> {{ pub.award }}</span>{% endif %}
+    </p>
+    {% if pub.links %}
+      <div class="pub-links">
+        {% for link in pub.links %}
+          <a class="btn-chip" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

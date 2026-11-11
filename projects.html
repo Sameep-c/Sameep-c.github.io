@@ -1,0 +1,26 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+description: Research projects across speech, multimodal learning, and online learning.
+---
+<div class="project-grid">
+  {% for p in site.data.projects %}
+    <article class="project-card">
+      <div class="project-meta">{{ p.period }}</div>
+      <h3 class="project-title">{{ p.title }}</h3>
+      <div class="project-org">{{ p.org }}</div>
+      <p class="project-desc">{{ p.description }}</p>
+      <div class="project-tags">
+        {% for t in p.tags %}<span class="tag">{{ t }}</span>{% endfor %}
+      </div>
+      {% if p.links %}
+        <div class="pub-links">
+          {% for link in p.links %}
+            <a class="btn-chip" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </article>
+  {% endfor %}
+</div>

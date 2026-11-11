@@ -1,0 +1,26 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+description: "* denotes equal contribution."
+---
+{% assign papers = site.data.publications | where: "type", "conference" %}
+{% assign by_year = papers | group_by: "year" | sort: "name" | reverse %}
+{% for group in by_year %}
+  <section class="section">
+    <h2 class="section-title year-title">{{ group.name }}</h2>
+    {% for pub in group.items %}
+      {% include publication.html pub=pub %}
+    {% endfor %}
+  </section>
+{% endfor %}
+
+{% assign preprints = site.data.publications | where: "type", "preprint" %}
+{% if preprints.size > 0 %}
+  <section class="section">
+    <h2 class="section-title">Preprints</h2>
+    {% for pub in preprints %}
+      {% include publication.html pub=pub %}
+    {% endfor %}
+  </section>
+{% endif %}

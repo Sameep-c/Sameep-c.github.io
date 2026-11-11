@@ -1,0 +1,91 @@
+# type: conference | preprint
+# selected: true shows the paper on the home page
+# Mark equal contribution with * after a name.
+
+- title: "Beyond Fresh Starts: Stateful Inference for Streaming ASR in Conversational Voice Agents"
+  authors: Sameep Chattopadhyay, Alexander Erdmann, Mari Ostendorf
+  venue: Conference on Empirical Methods in Natural Language Processing (EMNLP), Main
+  venue_short: EMNLP 2026
+  year: 2026
+  type: conference
+  selected: true
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2026.emnlp-main.1703/
+    - name: arXiv
+      url: https://arxiv.org/abs/2608.22101
+    - name: BibTeX
+      url: https://aclanthology.org/2026.emnlp-main.1703.bib
+
+- title: "The Cost of Sounding Different: Accent Bias in Audio Language Models"
+  authors: Aruna Srivastava*, Orevaoghene Ahia*, Li Lucy, Ashley Christendat, Sameep Chattopadhyay, Farhan Samir, Tejumade Afonja, Valentin Hofmann, Sachin Kumar, Noah A. Smith, Yulia Tsvetkov
+  venue: Conference on Empirical Methods in Natural Language Processing (EMNLP), Main
+  venue_short: EMNLP 2026
+  year: 2026
+  type: conference
+  award: Outstanding Paper Award
+  selected: true
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2026.emnlp-main.1612/
+    - name: Code
+      url: https://github.com/arunasrivastava/ImplicitAccentBias
+    - name: Data
+      url: https://huggingface.co/multispeak
+
+- title: "Observation-free Attacks on Online Learning to Rank"
+  authors: Sameep Chattopadhyay, Nikhil Karamchandani, Sharayu Moharir
+  venue: NeurIPS 2025 ACA Workshop
+  venue_short: NeurIPS-W 2025
+  year: 2025
+  type: conference
+  award: Oral
+  selected: true
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2509.22855
+
+- title: "AMPS: ASR with Multimodal Paraphrase Supervision"
+  authors: Abhishek Gupta*, Amruta Parulekar*, Sameep Chattopadhyay, Preethi Jyothi
+  venue: Annual Conference of the Nations of the Americas Chapter of the ACL (NAACL)
+  venue_short: NAACL 2025
+  year: 2025
+  type: conference
+  selected: true
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2025.naacl-short.35/
+    - name: arXiv
+      url: https://arxiv.org/abs/2411.18368
+    - name: BibTeX
+      url: https://aclanthology.org/2025.naacl-short.35.bib
+
+- title: "Parameter-efficient Adaptation of Multilingual Multimodal Models for Low-resource ASR"
+  authors: Abhishek Gupta*, Amruta Parulekar*, Sameep Chattopadhyay*, Preethi Jyothi
+  venue: EMNLP Workshop on Multilingual Representation Learning (MRL)
+  venue_short: EMNLP-W 2024
+  year: 2024
+  type: conference
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2410.13445
+
+- title: "Low-Regret and Low-Complexity Learning for Hierarchical Inference"
+  authors: Sameep Chattopadhyay, Vinay Sutar, Jaya Prakash Champati, Sharayu Moharir
+  venue: Under review
+  venue_short: Preprint
+  year: 2025
+  type: preprint
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2508.08985
+
+- title: "Context Matters: Leveraging Contextual Features for Time Series Forecasting"
+  authors: Sameep Chattopadhyay*, Pulkit Paliwal*, Sai Shankar Narasimhan, Shubhankar Agarwal, Sandeep P. Chinchali
+  venue: Under review
+  venue_short: Preprint
+  year: 2024
+  type: preprint
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2410.12672

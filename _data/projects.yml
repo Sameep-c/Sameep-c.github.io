@@ -1,0 +1,78 @@
+- title: Stateful Streaming ASR for Voice Agents
+  period: Jan 2026 – Jun 2026
+  org: University of Washington · Advisor Prof. Mari Ostendorf
+  tags: [Speech Recognition, Voice Agents, Streaming]
+  description: >-
+    Inference-time state-management strategies for streaming ASR that preserve
+    cross-utterance context while staying robust to long silences and backchannels.
+    Roughly 20% relative reduction in turn-onset WER for FastConformer and Nemotron
+    streaming models on Switchboard and CallHome, at sub-250 ms latency and under
+    0.6% memory overhead.
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2026.emnlp-main.1703/
+
+- title: Accent Bias in Audio Language Models
+  period: Sep 2025 – Mar 2026
+  org: University of Washington · with Prof. Noah A. Smith
+  tags: [Audio LMs, Fairness, Evaluation]
+  description: >-
+    An evaluation framework for measuring accent-driven disparities in audio
+    language models across hiring, academic, and English-test settings, using 700+
+    synthetic interview dialogues and a 68-participant human study. Received an
+    Outstanding Paper Award at EMNLP 2026.
+  links:
+    - name: Paper
+      url: https://aclanthology.org/2026.emnlp-main.1612/
+    - name: Code
+      url: https://github.com/arunasrivastava/ImplicitAccentBias
+
+- title: ASR for Low-resource Indian Languages
+  period: Nov 2023 – Oct 2024
+  org: Amazon × IIT Bombay · Advisor Prof. Preethi Jyothi
+  tags: [Multilingual ASR, PEFT, SeamlessM4T]
+  description: >-
+    Parameter-efficient finetuning and text-only adaptation with cross-lingual
+    transfer for multimodal multilingual ASR across 10+ Indian languages, including
+    a 17% zero-shot WER reduction on IndicVoices-Odia.
+  links:
+    - name: AMPS (NAACL)
+      url: https://aclanthology.org/2025.naacl-short.35/
+    - name: PEFT (MRL)
+      url: https://arxiv.org/abs/2410.13445
+
+- title: Context-aware Time Series Forecasting
+  period: Summer 2024
+  org: UT Austin · Advisor Prof. Sandeep Chinchali
+  tags: [Multimodal Learning, Transformers, Forecasting]
+  description: >-
+    A plug-and-play framework for injecting multimodal context such as news,
+    market trades, and environmental signals into transformer forecasters,
+    reducing MSE by 13.9% for PatchTST and 15.5% for iTransformer.
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2410.12672
+
+- title: Hierarchical Inference for Edge AI
+  period: Nov 2024 – Jun 2025
+  org: IIT Bombay · Master's thesis, Prof. Sharayu Moharir
+  tags: [Bandits, Edge ML, Theory]
+  description: >-
+    HI-LCB, a UCB-style policy for deciding when a tiny on-device model should
+    offload inference to a remote model, with order-optimal O(log T) regret and
+    O(1) per-sample complexity.
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2508.08985
+
+- title: Adversarial Attacks on Online Learning to Rank
+  period: May 2024 – Oct 2024
+  org: IIT Bombay · Master's thesis, Prof. Sharayu Moharir
+  tags: [Online Learning, Adversarial ML, Ranking]
+  description: >-
+    Observation-free attack strategies that promote target items in bandit-based
+    rankers under cascade and position-based click models, achieving linear regret
+    with logarithmic attack cost.
+  links:
+    - name: arXiv
+      url: https://arxiv.org/abs/2509.22855
